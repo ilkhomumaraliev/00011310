@@ -1,22 +1,38 @@
-/*
---- 01 TYPOGRAPHY SYSTEM
-
-- Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+  padding: 2.4rem 3.2rem;
+  background-color: #fdf6f4;
 }
 
-html {
-  font-size: 62.5%;
+.logo {
+  text-decoration: none;
+  color: #224350;
+  font-size: 3.6rem;
+  font-weight: 700;
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-  line-height: 1;
-  font-weight: 400;
+.main-nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  font-size: 2.4rem;
+  gap: 3.2rem;
 }
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #224350;
+  transition: all .3s ease-in-out;
+}
+
+.main-nav-link:active,
+.main-nav-link:hover {
+  color: #7d7572;
+}
+
 
