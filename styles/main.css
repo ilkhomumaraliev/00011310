@@ -12,6 +12,11 @@
   color: #224350;
   font-size: 3.6rem;
   font-weight: 700;
+  transition: all .3s ease-in-out;
+}
+
+.logo:hover {
+  transform: translateY(-0.5rem);
 }
 
 .main-nav-list {
@@ -25,6 +30,9 @@
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
+  background: #94d5c6;
+  padding: 0.8rem 1.5rem;
+  border-radius: 0.8rem;
   text-decoration: none;
   color: #224350;
   transition: all .3s ease-in-out;
@@ -33,6 +41,9 @@
 .main-nav-link:active,
 .main-nav-link:hover {
   color: #7d7572;
+  transform: translateY(-0.5rem);
+  
 }
+
 
 

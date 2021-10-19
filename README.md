@@ -4,4 +4,4 @@ Online Learning Website
 
 Font Family - 'Roboto', Google Fonts;
 
-Colors: #efb5a3, #829079, #315f72   https://99designs.com/blog/creative-inspiration/color-combinations/
+Colors: #efb5a3, #829079, #315f72 #d902ee  https://99designs.com/blog/creative-inspiration/color-combinations/
