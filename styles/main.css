@@ -1,16 +1,16 @@
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 6.4rem;
   padding: 2.4rem 3.2rem;
-  background-color: #fdf6f4;
 }
 
 .logo {
   text-decoration: none;
   color: #224350;
-  font-size: 3.6rem;
+  font-size: 4.4rem;
   font-weight: 700;
   transition: all .3s ease-in-out;
 }
