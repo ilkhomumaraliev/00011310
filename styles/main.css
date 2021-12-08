@@ -48,6 +48,8 @@
 
 /*SECTION HEADER END*/
 
+
+/*SECTION HERO */
 .section-hero-container {
   display: flex;
   flex-direction: column;
@@ -58,6 +60,7 @@
   margin: 10rem auto;
   background-color: #f2c4b5;
   padding: 4.8rem 6.4rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, .075);
 }
 
 .section-hero-title {
@@ -100,4 +103,14 @@
 }
 
 
+/*SECTION HERO END */
 
+
+/*SECTION COURSES */
+.section-courses-header {
+  margin-top: 4.8rem;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+}
+/*SECTION COURSES END*/
