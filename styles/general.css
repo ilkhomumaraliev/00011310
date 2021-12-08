@@ -21,3 +21,8 @@ body {
     max-width: 130rem;
     margin: 0 auto;
 }
+
+.icons {
+  margin-right: 1rem;
+  font-size: 2rem;
+}
