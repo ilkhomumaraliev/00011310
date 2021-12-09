@@ -14,7 +14,7 @@
   color: #224350;
   font-size: 4.4rem;
   font-weight: 700;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .logo:hover {
@@ -37,7 +37,7 @@
   border-radius: 0.8rem;
   text-decoration: none;
   color: #224350;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .main-nav-link:active,
@@ -47,7 +47,6 @@
 }
 
 /*SECTION HEADER END*/
-
 
 /*SECTION HERO */
 .section-hero-container {
@@ -60,7 +59,7 @@
   margin: 10rem auto;
   background-color: #f2c4b5;
   padding: 4.8rem 6.4rem;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, .075);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
 }
 
 .section-hero-title {
@@ -70,12 +69,12 @@
   margin-bottom: 3.2rem;
 }
 
-.section-hero-subheading{
+.section-hero-subheading {
   font-size: 3rem;
   margin-bottom: 1.6rem;
 }
 
-.section-hero-text{
+.section-hero-text {
   font-size: 1.8rem;
   text-align: center;
   margin-bottom: 2.4rem;
@@ -93,7 +92,7 @@
 .btn:link,
 .btn:visited {
   text-decoration: none;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .btn:active,
@@ -102,9 +101,7 @@
   transform: translateY(-0.5rem);
 }
 
-
 /*SECTION HERO END */
-
 
 /*SECTION COURSES */
 .section-courses-header {
@@ -170,7 +167,6 @@
 }
 /*SECTION COURSES END*/
 
-
 /*SECTION PRICE START*/
 .section-price-header {
   margin-top: 4.8rem;
@@ -183,13 +179,10 @@
 .section-price-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   justify-content: center;
-  align-items: center;
-}
 
-.section-price-plan {
-  grid-row: 1 / 3;
+  gap: 2.4rem;
 }
 
 .section-price-plan h4 {
@@ -204,8 +197,8 @@
   text-align: center;
 }
 
-.section-price-list  {
-  margin-top: 1.2rem;
+.section-price-list {
+  margin-top: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -213,21 +206,257 @@
   list-style: none;
 }
 
-.section-price-list li{
-  margin-bottom: 1rem;
+.section-price-list li {
+  margin-bottom: 2rem;
   list-style: none;
   font-size: 1.4rem;
   display: flex;
   align-items: center;
 }
 
-.btn {
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-buy {
+  margin: 2rem 0;
+  padding: 1.6rem 5.6rem;
+  font-size: 2rem;
+  background: #94d5c6;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-buy:hover,
+.btn-buy:active {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.section-price-info h4 {
+  font-size: 2.8rem;
   text-align: center;
 }
 
-
-
+.section-price-info .text {
+  font-size: 3.6rem;
+  margin-top: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+}
 
 /*SECTION PRICE END*/
 
+.section-testimonials {
+  margin-top: 6.4rem;
+}
 
+.section-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  row-gap: 3.5rem;
+  column-gap: 2rem;
+}
+
+.text-box {
+  font-size: 1.4rem;
+}
+
+.testimonial-box {
+  width: 100%;
+  padding: 2rem 3.5rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1.5rem #000;
+}
+
+.testimonial-header {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  z-index: 5;
+}
+
+.testimonial-text {
+  font-size: 1.6rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.grid-item-1,
+.grid-item-2,
+.grid-item-5 {
+  color: #fff;
+}
+
+.grid-item-1 {
+  background-color: hsl(263, 55%, 52%);
+  grid-column: 1/3;
+  position: relative;
+}
+
+.grid-item-2 {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.grid-item-3 {
+  grid-column: 4/5;
+  grid-row: 1/3;
+}
+
+.grid-item-5 {
+  grid-column: 2/4;
+  grid-row: 2/3;
+  background-color: hsl(219, 29%, 14%);
+}
+
+.call-to-action {
+  margin-top: 6.4rem;
+}
+
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.login-form h4 {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.login-form p {
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.sign-in-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.sign-in-btn button {
+  padding: 1.2rem 3.2rem;
+  border: none;
+  background-color: #94d5c6;
+  border-radius: 1.2rem;
+}
+
+.sign-up div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.sign-up-info {
+  text-align: center;
+}
+
+.social-icons {
+  font-size: 3.2rem;
+}
+
+.sign-up-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  border: none;
+  padding: 1.6rem 2.2rem;
+  border-radius: 1.2rem;
+  background-color: #94d5c6;
+}
+
+footer {
+  margin: 5rem 0;
+}
+.footer-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-wrapper ul {
+  list-style: none;
+  font-size: 1.6rem;
+}
+
+.footer-wrapper ul li {
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .section-testimonials {
+    margin: 2rem 1.5rem;
+  }
+
+  .section-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 110rem) {
+  html {
+    font-size: 55%;
+  }
+
+  .container {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 90rem) {
+  .container {
+    padding: 0 4rem;
+  }
+
+  .section-courses-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 3.2rem;
+  }
+
+  .section-hero-container {
+    width: 70rem;
+    padding: 3.2rem 5rem;
+  }
+}
+
+@media screen and (max-width: 70rem) {
+  html {
+    font-size: 40%;
+  }
+  .container {
+    padding: 0 4rem;
+  }
+
+  .section-hero-container {
+    max-width: 60rem;
+    padding: 3.2rem 5rem;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2.4rem 3.2rem;
+  }
+
+  .btn {
+    padding: 1.6rem 4.8rem;
+  }
+}
